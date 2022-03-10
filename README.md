@@ -559,7 +559,7 @@ Cada personagem será composto tanto por uma raça quanto por um arquétipo. Ess
 
 As dicas para completar essa *quest* são: 
 
-- O arquivo deve ser criado na raiz do diretório `src/` e se chamar `Fighter.ts`;
+- O arquivo deve ser criado na raiz do diretório `src/` e se chamar `Character.ts`;
 - A classe implementa a interface `Fighter`;
 - A classe `Character` deve ter os atributos privados: `race`, `archetype`, `maxLifePoints`, `lifePoints`, `strength`, `defense`, `dexterity` e `energy`, todos inicializados em seu **construtor**;
   - O atributo `race` deve ser do tipo `Race`;
