@@ -1,7 +1,7 @@
 import Race from './Race';
 
 export default class Dwarf extends Race {
-  public static instances = 0;
+  private static instances = 0;
   private _maxLifePoints: number;
 
   constructor(name: string, dexterity: number) {
