@@ -1,4 +1,4 @@
-describe.skip('12 - Classe Dragon', () => {
+describe('12 - Classe Dragon', () => {
   it('A classe Dragon existe', () => {
     expect('Dragon.exists').toCompile();
   });
