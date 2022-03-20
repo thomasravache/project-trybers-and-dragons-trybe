@@ -1,4 +1,4 @@
-describe.skip('10 - Classe PVP', () => {
+describe('10 - Classe PVP', () => {
   it('A classe PVP existe e se pode ser criada uma nova instância, passando dois Characters lutadores', () => {
     expect('PVP.exists').toCompile();
   });

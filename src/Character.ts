@@ -67,7 +67,7 @@ export default class Character implements Fighter {
 
     if (damage > 0) this._lifePoints -= damage;
     if (this._lifePoints <= 0) this._lifePoints = -1;
-
+    console.log(`vida atual de ${this.name} = ${this.lifePoints}`);
     return this._lifePoints;
   }
 
