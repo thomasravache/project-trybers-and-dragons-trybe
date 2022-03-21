@@ -38,6 +38,7 @@ O objetivo do projeto foi aplicar os princípios da arquitetura `SOLID` e os pri
 # Tecnologias utilizadas
 
  - Typescript
+ - Node.js
 
 # Autor
 **Thomas Ravache**
