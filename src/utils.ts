@@ -4,4 +4,7 @@ function getRandomInt(min: number, max: number) {
   return Math.floor(Math.random() * (newMax - newMin)) + newMin;
 }
 
+export const sleep = (milliseconds: number) => Atomics
+  .wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, milliseconds);
+
 export default getRandomInt;

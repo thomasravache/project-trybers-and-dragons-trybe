@@ -9,11 +9,11 @@ player1.levelUp();
 player1.levelUp();
 player1.levelUp();
 
-const player2: Character = new Character('Legolas');
-const player3: Character = new Character('Bifur');
+const player2: Character = new Character('Azog', 10, 3);
+const player3: Character = new Character('Thorin', 6, 8);
 
-const monster1: Monster = new Monster();
-const monster2: Monster = new Dragon();
+const monster1: Monster = new Monster('Warg');
+const monster2: Monster = new Dragon('Smaug, O Terrível');
 
 const pvp: PVP = new PVP(player2, player3);
 
@@ -24,6 +24,8 @@ const runBattles = (battles: Battle[]) => {
     battle.fight();
   });
 };
+
+runBattles([pvp]);
 
 export {
   player1,

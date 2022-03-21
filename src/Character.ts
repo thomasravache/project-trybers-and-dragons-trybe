@@ -14,10 +14,10 @@ export default class Character implements Fighter {
   private readonly _race: Race;
   private readonly _archetype: Archetype;
 
-  constructor(public name: string) {
+  constructor(public name: string, strength?: number, defense?: number) {
     this._archetype = new Mage(name);
-    this._strength = getRandomInt(1, 10);
-    this._defense = getRandomInt(1, 10);
+    this._strength = strength || getRandomInt(1, 10);
+    this._defense = defense || getRandomInt(1, 10);
     this._race = new Elf(name, 10); 
     this._dexterity = this._race.dexterity;
     this._maxLifePoints = this._race.maxLifePoints / 2;
@@ -65,13 +65,18 @@ export default class Character implements Fighter {
   public receiveDamage(attackPoints: number): number {
     const damage = attackPoints - this._defense;
 
-    if (damage > 0) this._lifePoints -= damage;
+    if (damage > 0) {
+      this._lifePoints -= damage;
+      console.log(`${this.name} recebeu ${damage} de dano.`);
+    }
     if (this._lifePoints <= 0) this._lifePoints = -1;
-    console.log(`vida atual de ${this.name} = ${this.lifePoints}`);
+    
+    console.log(`vida atual de ${this.name} = ${this.lifePoints}\n`);
     return this._lifePoints;
   }
 
   public attack(enemy: SimpleFighter): void {
+    console.log(`${this.name} está atacando ${enemy.name}`);
     enemy.receiveDamage(this._strength);
   }
 
