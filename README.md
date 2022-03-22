@@ -19,21 +19,21 @@ O objetivo do projeto foi aplicar os princípios da arquitetura `SOLID` e os pri
 
 # Exemplos
 
-![demonstration](https://docs.google.com/uc?id=189AmGDLPNXvK-Fe4mtcnLjR2UF-gHWiL)
+![demonstration](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Peek%202022-03-21%2012-38.gif?raw=true)
 
 ### *Criação de um arquétipo*
-![Arquétipo de Mago](https://docs.google.com/uc?id=1EVcGE1OmyRe-SQASS9cIZm3Wo8BLsRxy)
+![Arquétipo de Mago](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Screenshot%20from%202022-03-21%2010-10-44.png?raw=true)
 
 ### *Criação de uma raça*
-![Elfo](https://drive.google.com/uc?id=1919PMfdSMxEIcLd_LOgOVVlOF15kz0SX)
+![Elfo](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Screenshot%20from%202022-03-21%2010-12-02.png?raw=true)
 
 ### *Criação de um personagem do tipo lutador*
-![pt1](https://drive.google.com/uc?id=1DTECjb1vIyXHvGLSk9iy283ZsrkWhEpp)
-![pt2](https://drive.google.com/uc?id=1aDWkh4g_7SYCHO6IF9qW6eTVLYsz4Pn9)
-![pt3](https://drive.google.com/uc?id=1Pt5W821cEqK7HQYKIdfUr4nsl4RVb64s)
+![pt1](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Screenshot%20from%202022-03-21%2010-31-52.png?raw=true)
+![pt2](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Screenshot%20from%202022-03-21%2010-32-18.png?raw=true)
+![pt3](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Screenshot%20from%202022-03-21%2010-32-45.png?raw=true)
 
 ### *Criação do modo PVP*
-![pvp-mode](https://drive.google.com/uc?id=1pzLYEAlNVK2S_O_rnutd_UvZro_uTrcA)
+![pvp-mode](https://github.com/thomasravache/img-readmes/blob/master/project-trybers-and-dragons-trybe/Screenshot%20from%202022-03-21%2010-11-34.png?raw=true)
 
 # Tecnologias utilizadas
 
